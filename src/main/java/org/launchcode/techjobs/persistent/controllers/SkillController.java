@@ -19,7 +19,7 @@ public class SkillController {
     @Autowired
     private SkillRepository skillRepository;
 
-    @GetMapping("")
+    @RequestMapping("")
     public String index(Model model) {
         model.addAttribute("title", "Skills");
         model.addAttribute("employers", skillRepository.findAll());
