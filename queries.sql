@@ -1,4 +1,6 @@
 -- Part 1: Test it with SQL
+-- id (int, PK), employer(varchar), name(varchar), skills(varchar)
+-- in my case? => id (int, PK), name(varchar), employer_id(int)
 
 -- Part 2: Test it with SQL
 SELECT name FROM employer WHERE location = "St. Louis City";
